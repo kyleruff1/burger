@@ -17,6 +17,6 @@ app.set("view engine", "handlebars");
 // require("./controllers/burgersController.js")(app);
 
 // Equivalent???
-const routes = require("./controllers/burgersController.js");
+const routes = require("./controllers/burgers_controller.js/index.js");
 app.use("/", routes);
 
