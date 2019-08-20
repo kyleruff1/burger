@@ -1,9 +1,13 @@
 .header-bg {
-    background-color:#f67f72;
-    color:white;
+    background-color: orangered;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-image: url("../img/banner.png");
+    background-size: 90%;
+    background-position: center;
 }
 .header {
-    color:#f67f72;
+    color: orangered;
 }
 ul {
     list-style-type: none;    
@@ -11,15 +15,26 @@ ul {
 img {
     max-height:200px;
 }
-.btn-mustard {
-    background-color:#fac126;
-    color:white;
+.btn-1 {
+    background-color: yellow;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
-.btn-ketchup {
-    background-color:#f67f72;
+.btn-2 {
+    background-color: red;
     color:white;
+    text-shadow: 2px 2px black;
 }
 .container {
-    background-image: url("../img/backround.jpg");
+    background-image: url("../img/burground.png");
+    background-color: orangered;
+    width: 99%;
+    text-shadow: 2px 2px white;
+    background-position: center; 
+    background-size: 80%;
+}
+
+body {
+    background-color: black;
 }
