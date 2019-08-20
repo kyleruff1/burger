@@ -20,3 +20,6 @@ img {
     background-color:#f67f72;
     color:white;
 }
+.container {
+    background-image: url("../img/backround.jpg");
+}
